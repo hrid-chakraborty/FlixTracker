@@ -19,7 +19,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="875.0" prefWidth="1187.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sample.flixtracker.DashboardController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="936.0" prefWidth="1283.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sample.flixtracker.DashboardController">
    <top>
       <ToolBar prefHeight="71.0" prefWidth="1187.0" BorderPane.alignment="CENTER">
          <items>
@@ -42,7 +42,7 @@
       </ToolBar>
    </top>
    <left>
-      <AnchorPane prefHeight="804.0" prefWidth="178.0" style="-fx-background-color: lightgray;" BorderPane.alignment="CENTER">
+      <AnchorPane prefHeight="865.0" prefWidth="185.0" style="-fx-background-color: lightgray;" BorderPane.alignment="CENTER">
          <children>
             <ImageView fx:id="profileImage" fitHeight="150.0" fitWidth="149.0" layoutX="26.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true" />
             <Label fx:id="myProfileLabel" layoutX="54.0" layoutY="218.0" text="My Profile" textAlignment="CENTER" underline="true">
@@ -107,7 +107,7 @@
          <center>
             <ScrollPane fx:id="mainScrollPane" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
                <content>
-                  <FlowPane fx:id="mainFlowPane" prefHeight="681.0" prefWidth="781.0" />
+                  <FlowPane fx:id="mainFlowPane" prefHeight="741.0" prefWidth="877.0" />
                </content>
             </ScrollPane>
          </center>
@@ -136,7 +136,7 @@
             </Label>
             <ScrollPane fx:id="sideScrollPane" layoutY="118.0" pannable="true" prefHeight="685.0" prefWidth="204.0" style="-fx-background-color: lightgray;">
                <content>
-                  <FlowPane fx:id="sideFlowPane" prefHeight="683.0" prefWidth="200.0" style="-fx-background-color: lightgray;" />
+                  <FlowPane fx:id="sideFlowPane" prefHeight="683.0" prefWidth="202.0" style="-fx-background-color: lightgray;" />
                </content>
             </ScrollPane>
          </children>
