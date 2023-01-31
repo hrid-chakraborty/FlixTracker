@@ -1,3 +1,7 @@
+The project uses API From:
+
+ ![tmdb.svg](ReadMeImages/tmdb.svg)
+
 # FlixTracker
 
 1. A desktop App where a user will get recommendations based on their preferences.
